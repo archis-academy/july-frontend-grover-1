@@ -3,3 +3,103 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.footer{
+  width: 1485px;
+  height: 463px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  border-radius: 0 0 50px 50px;
+  background-color: #ECECEC;
+}
+
+.footer-contanier{
+  width: 1150px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* BIRINCI KISIM */
+
+.footer-top{
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "poppins", sans-serif;
+}
+
+.footer-top-left{
+  display: flex;
+  flex-direction: column;  
+}
+
+.footer-top-left p{
+  font-size: 12px;
+  margin-top: 10px;
+  width: 200px;
+  color: #676767;
+}
+
+.footer-menu{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ul li{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #676767;
+}
+
+.footer-menu-parts{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu-parts h4{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #2E2E2E;
+}
+
+.footer-menu-parts p{
+  margin-top: 10px;
+  font-size: 12px;
+  width: 180px;
+  color: #676767;
+}
+
+
+/* IKINCI KISIM */
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  margin-top: auto;
+  font-family: "poppins", sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  border-top: 1px solid #dbdada;
+}
+
+.footer-info-left{
+  color: #8C8C8C;
+  margin-top: auto;
+}
+
+.footer-info-right{
+  display: flex;
+  color: #747474;
+  margin-top: auto;
+  gap: 20px;
+}
+
+
+
