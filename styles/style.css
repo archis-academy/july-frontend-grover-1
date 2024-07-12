@@ -3,3 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Poppins';
+}
+
+.hero-section {
+}
+
+.strawberry-box {
+  font-family: "Poppins";
+  border-radius: 23px;
+  background: rgba(253, 236, 236, 1);
+  width: 214px;
+  height: 46px;
+  top: 197px;
+  left: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mtf-font {
+  width: 136px;
+  height: 16px;
+  top: 212px;
+  left: 155px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  white-space: nowrap;
+  padding-right: 90%;
+}
+
+.strawberry-icon {
+  width: 26px;
+  height: 24px;
+  top: 208px;
+  left: 303px;
+}
+
+.groceries-h1 {
+  width: 578px;
+  height: 264px;
+  top: 263px;
+  left: 135px;
+  font-size: 190%;
+}
+
+.groceries-p {
+  width: 478px;
+  height: 60px;
+  top: 549px;
+  left: 135px;
+}
+
+.ordernow-button {
+  border-radius: 12px;
+  background-color: #F86061;
+  border: none;
+  color: white;
+  width: 186px;
+  height: 70px;
+  top: 669px;
+  left: 135px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
