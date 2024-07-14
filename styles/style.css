@@ -9,6 +9,9 @@ body {
 }
 
 .hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .strawberry-box {
@@ -25,16 +28,13 @@ body {
 }
 
 .mtf-font {
-  width: 136px;
   height: 16px;
-  top: 212px;
-  left: 155px;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   display: flex;
   white-space: nowrap;
-  padding-right: 90%;
+  margin-right: 10px;
 }
 
 .strawberry-icon {
@@ -72,4 +72,25 @@ body {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+}
+
+.play-button {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.order-process {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-chef-image {
 }
