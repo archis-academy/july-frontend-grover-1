@@ -8,16 +8,12 @@
 # Feater Section 2
 --------------------------------------------------------------*/
 .feater {
-  width: 1296px;
-  height: 684px;
   margin: 0 72px;
   display: flex;
   position: relative;
 }
 
 .feater-content {
-  width: 1119px;
-  height: 646px;
   margin-left: 160px;
   display: flex;
   position: absolute;
@@ -27,14 +23,10 @@
 }
 
 .feater-content-text {
-  width: 519px;
-  height: 372px;
   margin-top: 233px;
 }
 
 .feater-content-text1 {
-  width: 139px;
-  height: 24px;
   font-family: "poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -54,8 +46,6 @@
 }
 
 .feater-content-text2 {
-  width: 465px;
-  height: 90px;
   font-family: "poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -65,14 +55,14 @@
 }
 
 .feater-content-btn {
-  width: 201px;
-  height: 70px;
   font-family: "poppins", sans-serif;
   font-size: 20px;
   line-height: 20px;
   color: #F86061;
   border-radius: 12px;
-  border: 1.5px solid #F86061
+  border: 1.5px solid #F86061;
+  padding: 20px 30px 20px 30px;
+  background: none;
 }
 
 .feater-content-image {
@@ -80,10 +70,11 @@
   height: 645.79px;
 }
 
-.feater-content-img{
+.feater-content-img {
   width: 500px;
   height: 645.79px;
 }
+
 /*--------------------------------------------------------------
 # End Feater Section 2
 --------------------------------------------------------------*/
