@@ -5,15 +5,21 @@
 }
 
 .container {
+  max-width: 1300px;
   display:flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
+  margin: auto;
   flex-wrap: wrap;
-  gap: 160px;
+  gap: 80px;
+  padding: 30px;
 }
 .container--content {
-
+  max-width: 394px;
+  margin: auto;
+  font-family: "Poppins" , sans-serif;
 }
+
 .content--title {
   color:#03A66B;
   margin-top: 20px;
@@ -22,7 +28,6 @@
 }
 
 .content--subtitle {
-  width: 394px;
   color: black;
   font-weight: 700;
   font-size: 35px;
@@ -31,7 +36,6 @@
 }
 
 .content--prg {
-  width: 358px;
   color: #676767;
   font-weight: 400;
   font-size: 18px;
@@ -40,8 +44,7 @@
   margin-top: 20px;
 }
 .content--btn {
-  width: 201px;
-  height: 70px;
+  cursor: pointer;
   padding:25px;
   border: none;
   background-color: #F86061;
@@ -50,17 +53,29 @@
   font-size: 15px;
   color: white;
 }
+
+.content--btn:hover{
+  color: #F86061;
+  background-color:rgb(224, 224, 224);
+
+}
+
+
 .container--img-card {
+  max-width: 665px;
+  position: relative;
+  width:100%;
   display: flex;
   justify-content: center;
   align-items:center;
 }
 .container--card {
+  font-family: "Inter" , sans-serif;
   position: absolute;
   border-radius: 12px;
-  right: 50%;
+  right: 0;
   top: 50%;
-  transform: translate(180% , -40%);
+  transform: translate(0 , -40%);
   height: 277px;
   width: 204px;
   background-color: white;
@@ -120,7 +135,11 @@
 }
 
 .container--img {
-  position: relative;
+  max-width: 600px;
+  min-height: 738px;
+
 }
 .container--img--cnt {
+  width: 100%;
+  height: 100%;
 }
