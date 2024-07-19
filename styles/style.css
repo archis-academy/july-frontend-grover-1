@@ -8,22 +8,23 @@
 # Feater Section 2
 --------------------------------------------------------------*/
 .feater {
-  margin: 0 72px;
+  margin: 72px 0;
+  padding: 0 20px;
   display: flex;
-  position: relative;
+  justify-content: center;
 }
 
 .feater-content {
-  margin-left: 160px;
+  padding: 20px;
   display: flex;
-  position: absolute;
-  margin-top: 0;
-  margin-right: 0;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 100px;
 }
 
 .feater-content-text {
-  margin-top: 233px;
+  max-width: 519px;
+  align-items: center;
 }
 
 .feater-content-text1 {
@@ -65,16 +66,15 @@
   background: none;
 }
 
-.feater-content-image {
-  width: 500px;
-  height: 645.79px;
+.feater-content-image{
+  max-width: 500px;
 }
 
 .feater-content-img {
-  width: 500px;
-  height: 645.79px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
 /*--------------------------------------------------------------
 # End Feater Section 2
 --------------------------------------------------------------*/
