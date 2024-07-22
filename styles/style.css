@@ -4,6 +4,52 @@
   box-sizing: border-box;
 }
 
+/*  Services Section */
+
+.services--container {
+  background:#FEF5F5;
+  max-width: 1440px;
+  min-height: 760px;
+  margin: auto;
+
+}
+.services--title--db {
+  margin: auto;
+  padding-left: 150px;
+}
+.services--title {
+  color: #F54748;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  font-family: "Poppins" , sans-serif;
+}
+.services--subtitle--db{
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.services--subtitle {
+  color: #2E2E2E;
+  font-weight:700;
+  font-size: 40px;
+  line-height: 54px;
+  max-width: 627px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins" , sans-serif;
+}
+.services--img {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+}
+
 /*  Feature Section 1  */
 
 .container {
