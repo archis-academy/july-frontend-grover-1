@@ -62,138 +62,16 @@
 
 }
 
-
 .container--img-card {
   max-width: 665px;
-  position: relative;
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items:center;
   margin: auto;
 }
-.container--card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Inter" , sans-serif;
-  position: absolute;
-  border-radius: 12px;
-  right: 0;
-  top: 50%;
-  transform: translate(0 , -40%);
-  height: 277px;
-  width: 204px;
-  background-color: white;
-  z-index: 1;
-  box-shadow: 0 4px 8px rgb(0 , 0 , 0 , 0.2);
-}
-.card--title {
-  color: black;
-  margin-top: 15px;
-  font-weight: bolder;
-  font-size: 18px;
-}
-.card--subtitle {
-  color: #A5A4A4;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-.card--img {
+
+.container--img{
   width: 100%;
-  height:auto;
-}
-
-.card--icn--dv{
-  display: flex;
-  justify-content:space-around;
-  align-items: normal;
-  margin-bottom: 15px;
-  gap: 50px;
-}
-
-.card--icn--prc{
-  display: block;
-}
-
-.card--icn {
-  font-size: 16px;
-}
-.card--prc {
-  font-size: 22px;
-  font-weight: bold;
-}
-.card--btn {
-  width: 36px;
-  height: 36px;
-  background-color: #F86061;
-  border: 0px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card--btn img{
-  width: 14px;
-  height: 14px;
-}
-
-.container--img {
-  max-width: 100%;
-  min-height: 738px;
-  height: auto;
-  display: block;
-
-}
-.container--img--cnt {
-  width: 100%;
-  height: 100%;
-}
-
-@media(max-width:750px){
-  .container--card{
-    width:fit-content;
-    max-height:fit-content;
-  }
-
-  .card--img{
-    max-width: 100%;
-    max-height:fit-content;
-  }
-
-  .container--img{
-    max-width:fit-content;
-    height:fit-content;
-  }
-
-  .card--icn--dv{
-    max-width: fit-content;
-  }
 }
 
 
-@media(max-width:340px){
-  .container--card{
-    width:fit-content;
-    height: fit-content;
-  }
-
-  .container--img{
-    max-width:fit-content;
-    height:fit-content;
-  }
-
-  .card--img{
-    max-width: 100%;
-  }
-
-  .card--icn--dv{
-    display: none;
-  }
-
-
-}
 
 /*--------------------------------------------------------------
 # Footer Section                   
