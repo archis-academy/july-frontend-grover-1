@@ -5,6 +5,80 @@
 }
 
 /*--------------------------------------------------------------
+# Cta Section                   
+--------------------------------------------------------------*/
+
+.cta-section {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-section-body {
+  max-width: 1300px;
+  width: 100%;
+  padding: 100px 0;
+  background-color: #FEF5F5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.cta-section-content {
+  max-width: 538px;
+}
+
+.cta-section-content-text1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #F54748;
+}
+
+.cta-section-content-text2 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(30px, 9vw, 40px);
+  font-weight: 700;
+  line-height: clamp(40px, 9vw, 54px);
+  color: #2E2E2E;
+}
+
+.cta-section-content-text3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  color: #676767;
+}
+
+.cta-section-content-buttons {
+  display: flex;
+  margin-top: 62px;
+  gap: 26px;
+}
+
+.cta-section-content-btn {
+  border: 1.5px solid #EEDCDC;
+  background: none;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 12px;
+  gap: 18px;
+}
+
+.cta-section-content-btn-text {
+  
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+/*--------------------------------------------------------------
+# End Cta Section                   
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
 # Footer Section                   
 --------------------------------------------------------------*/
 .footer {
@@ -114,76 +188,3 @@
   }
 }
 
-/*--------------------------------------------------------------
-# Cta Section                   
---------------------------------------------------------------*/
-
-.cta-section {
-  padding: 0 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.cta-section-body {
-  max-width: 1300px;
-  width: 100%;
-  padding: 100px 0;
-  background-color: #FEF5F5;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 35px;
-}
-
-.cta-section-content {
-  max-width: 538px;
-}
-
-.cta-section-content-text1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  color: #F54748;
-}
-
-.cta-section-content-text2 {
-  font-family: "Poppins", sans-serif;
-  font-size: clamp(30px, 9vw, 40px);
-  font-weight: 700;
-  line-height: clamp(40px, 9vw, 54px);
-  color: #2E2E2E;
-}
-
-.cta-section-content-text3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  line-height: 30px;
-  color: #676767;
-}
-
-.cta-section-content-buttons {
-  display: flex;
-  margin-top: 62px;
-  gap: 26px;
-}
-
-.cta-section-content-btn {
-  border: 1.5px solid #EEDCDC;
-  background: none;
-  display: flex;
-  align-items: center;
-  padding: 20px 30px;
-  border-radius: 12px;
-  gap: 18px;
-}
-
-.cta-section-content-btn-text {
-  
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-}
-/*--------------------------------------------------------------
-# End Cta Section                   
---------------------------------------------------------------*/
