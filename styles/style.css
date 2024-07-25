@@ -58,7 +58,7 @@ img.strawberry-img {
   max-width: 578px;
   font-size: clamp(35px , 9vw , 74px);
   font-weight: 700;
-  line-height: 88px;
+  line-height: clamp(45px , 9vw , 88px);
   letter-spacing: -1%;
 }
 
