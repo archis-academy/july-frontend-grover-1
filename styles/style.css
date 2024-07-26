@@ -4,6 +4,65 @@
   box-sizing: border-box;
 }
 
+/*  Services Section */
+
+.services--container {
+  background:#FEF5F5;
+  max-width: 1440px;
+  margin: auto;
+  padding: 100px 0;
+
+}
+.services--title--db {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.services--title {
+  color: #F54748;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins" , sans-serif;
+}
+.services--subtitle--db{
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.services--subtitle {
+  color: #2E2E2E;
+  font-weight:700;
+  font-size: 40px;
+  line-height: 54px;
+  max-width: 627px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins" , sans-serif;
+}
+.services--img {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1050px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+
+@media(max-width:977px){
+  .services--img{
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /*  Feature Section 1  */
 
 .container {
