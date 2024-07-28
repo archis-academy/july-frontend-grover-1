@@ -322,23 +322,107 @@ img.strawberry-img {
 # End Feater Section 2
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+# Cta Section                   
+--------------------------------------------------------------*/
+
+.cta-section {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-section-body {
+  max-width: 1300px;
+  width: 100%;
+  padding: 100px 20px;
+  background-color: #FEF5F5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.cta-section-image{
+  max-width: 260px;
+}
+
+.cta-section-img{
+  width: 100%;
+  height: 100%;
+}
+
+.cta-section-content {
+  max-width: 538px;
+}
+
+.cta-section-content-text1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #F54748;
+}
+
+.cta-section-content-text2 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(30px, 9vw, 40px);
+  font-weight: 700;
+  line-height: clamp(40px, 9vw, 54px);
+  color: #2E2E2E;
+}
+
+.cta-section-content-text3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  color: #676767;
+}
+
+.cta-section-content-buttons {
+  display: flex;
+  margin-top: 62px;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.cta-section-content-btn {
+  border: 1.5px solid #EEDCDC;
+  background: none;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 12px;
+  gap: 18px;
+}
+
+.cta-section-content-btn-text {
+  
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+/*--------------------------------------------------------------
+# End Cta Section                   
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
 # Footer Section                   
 --------------------------------------------------------------*/
-.footer{
+.footer {
   padding: 0 20px;
   display: flex;
   justify-content: center;
   border-radius: 0 0 50px 50px;
 }
 
-.footer-contanier{
+.footer-contanier {
   flex: 1;
   max-width: 1150px;
   display: flex;
   flex-direction: column;
 }
 
-.footer-top{
+.footer-top {
   padding: 80px 0;
   flex-wrap: wrap;
   gap: 30px;
@@ -347,12 +431,12 @@ img.strawberry-img {
   font-family: "poppins", sans-serif;
 }
 
-.footer-top-left{
+.footer-top-left {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
-.footer-top-left p{
+.footer-top-left p {
   flex: 1;
   max-width: 200px;
   font-size: 12px;
@@ -360,7 +444,7 @@ img.strawberry-img {
   color: #676767;
 }
 
-.footer-menu{
+.footer-menu {
   flex: 1;
   gap: 20px;
   max-width: 700px;
@@ -369,7 +453,7 @@ img.strawberry-img {
   flex-wrap: wrap;
 }
 
-.footer-listes-list{
+.footer-listes-list {
   list-style-type: none;
   padding: 0;
   margin-top: 10px;
@@ -377,24 +461,24 @@ img.strawberry-img {
   color: #676767;
 }
 
-.footer-listes-listlink{
+.footer-listes-listlink {
   text-decoration: none;
   color: inherit;
 }
 
-.footer-menu-parts{
+.footer-menu-parts {
   display: flex;
   flex-direction: column;
 }
 
-.footer-menu-parts h4{
+.footer-menu-parts h4 {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 14px;
   color: #2E2E2E;
 }
 
-.footer-menu-parts p{
+.footer-menu-parts p {
   margin-top: 10px;
   font-size: 12px;
   width: 180px;
@@ -402,7 +486,7 @@ img.strawberry-img {
 }
 
 
-.footer-info{
+.footer-info {
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
@@ -413,19 +497,19 @@ img.strawberry-img {
   border-top: 1px solid #dbdada;
 }
 
-.footer-info-left{
+.footer-info-left {
   color: #8C8C8C;
   margin-top: auto;
 }
 
-.footer-info-right{
+.footer-info-right {
   display: flex;
   color: #747474;
   margin-top: auto;
   gap: 20px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
   .footer-top {
     flex-direction: column;
   }
