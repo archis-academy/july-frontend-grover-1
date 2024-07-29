@@ -5,10 +5,10 @@ let isMenuOpen = false;
 toggleMenu.addEventListener("click", function () {
   if (!isMenuOpen) {
     navBarMenu.style.display = "flex";
-    isMenuOpen = true;
+    isMenuOpen = !isMenuOpen;
   } else {
     navBarMenu.style.display = "none";
-    isMenuOpen = false;
+    isMenuOpen = !isMenuOpen;
   }
 });
 
